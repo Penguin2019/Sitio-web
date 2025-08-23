@@ -1,0 +1,66 @@
+body {
+    font-family: Arial,  sans-serif; /* Familia de fuentes */
+    font-size: 0px; /* El tamaño de la fuente principal en el tag <p></p> */
+    background-color: #f0f0f0; /* El color del fondo de la página web */
+    color: #333333; /* El color del texto*/ 
+}
+h1 {
+    text-align: center;
+    animation: color-change 3s infinite;
+    color: #021c02; /* El color de la cabecera */
+    font-size: 48px; /* El tamaño de la fuente de la cabecera */
+    font-family: Georgia, serif; /* La familia tipográfica utilizada en la cabecera */
+}
+h2 {
+    position: relative;
+    top: 400px;
+    text-align: center;
+    color: #021c02;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    font-family: Arial,  sans-serif; 
+    font-size: 20px; 
+    background-color: #405170; 
+    color: #dadada;
+}
+img {
+    width: 500px;
+    position: absolute;
+    top: 150px;  
+    right: 500px;
+    }
+.target {
+    
+  max-width: 1600px;
+  margin: 40px auto;
+  padding: 20px;
+  position: absolute;
+  top: 500px;  
+  right: 50px;
+  left: 50px;
+  background-color: #405170;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+  color: #aab4aa;
+  line-height: 1.6;
+}
+
+@keyframes color-change {
+    0% {
+      color: rgb(73, 49, 138);
+    }
+  
+    50% {
+      color: rgb(74, 135, 179);
+    }
+  
+    100% {
+      color: rgb(73,49,138);
+    }
+}
+h1:hover {
+    animation: color-change 3s infinite;
+}
