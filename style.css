@@ -7,7 +7,7 @@ body {
 h1 {
     text-align: center;
     animation: color-change 3s infinite;
-    color: #021c02; /* El color de la cabecera */
+    color: #545cb1; /* El color de la cabecera */
     font-size: 48px; /* El tamaño de la fuente de la cabecera */
     font-family: Georgia, serif; /* La familia tipográfica utilizada en la cabecera */
 }
